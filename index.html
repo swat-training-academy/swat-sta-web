@@ -1,27 +1,112 @@
-index.html
 <!DOCTYPE html>
-
 <html lang="id">
 <head>
-  <meta charset="UTF-8">
-  <title>SWAT Training Academy</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <title>SWAT Training Academy</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #0a0a0a;
+            color: white;
+        }
+
+        header {
+            background: black;
+            padding: 20px;
+            text-align: center;
+            border-bottom: 2px solid red;
+        }
+
+        header h1 {
+            margin: 0;
+            color: red;
+            font-size: 28px;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            background: #111;
+        }
+
+        nav a {
+            padding: 15px 20px;
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            background: red;
+        }
+
+        .hero {
+            text-align: center;
+            padding: 60px 20px;
+        }
+
+        .hero h2 {
+            font-size: 36px;
+            color: red;
+        }
+
+        .hero p {
+            font-size: 18px;
+            max-width: 600px;
+            margin: auto;
+        }
+
+        .btn {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 12px 25px;
+            background: red;
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 5px;
+        }
+
+        .btn:hover {
+            background: darkred;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: black;
+            border-top: 1px solid red;
+            margin-top: 50px;
+        }
+    </style>
 </head>
 
 <body>
 
-<div class="container">
+<header>
+    <h1>SWAT TRAINING ACADEMY</h1>
+</header>
 
-  <h1>SWAT TRAINING ACADEMY</h1>
+<nav>
+    <a href="#">Beranda</a>
+    <a href="#">Program</a>
+    <a href="#">Pendaftaran</a>
+    <a href="#">Kontak</a>
+</nav>
 
-<div onclick="masuk()">
+<section class="hero">
+    <h2>WEB SUDAH HIDUP BERSIH DAN BEBAS DARI GANGGUAN APAPUN 🔥</h2>
+    <p>Selamat datang di website resmi modul pelatihan SWAT Training Academy. Sistem ini akan digunakan untuk pembelajaran dan manajemen pelatihan.</p>
 
-    <img src="cover.jpg" class="cover">
+    <a href="#" class="btn">Mulai Sekarang</a>
+</section>
 
-</div>
-
-<script src="script.js"></script>
+<footer>
+    <p>© 2026 SWAT Training Academy - PT. Surya Wira Abadi Tribuana</p>
+</footer>
 
 </body>
 </html>
